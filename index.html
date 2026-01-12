@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inertial Follower Plugin</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen text-white gap-8">
+<main>
+  <div class="text-center">
+    <h1 class="text-3xl font-bold mb-2">Inertial Follower Plugin</h1>
+    <p class="text-slate-400 text-center leading-relaxed max-w-lg mx-auto">followButtonプラグインは、特定の要素にマウスホバーした際、マウスカーソルに追従されるボタン（チップ）を表示します。</p>
+  </div>
+  <div class="flex flex-wrap justify-center p-10 gap-6">
+    <div class="target-zone interactive-area">
+      <span class="text-slate-500">Offset: Bottom-Right</span>
+    </div>
+    <div class="target-zone interactive-area">
+      <span class="text-slate-500">Offset: Top-Only</span>
+    </div>
+  </div>
+</main>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
